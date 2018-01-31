@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  background-image: url("../images/star_and_stripes.jpg");
+  background-size: cover; }
+
+.haut_de_site {
+  height: 700px;
+  overflow: hidden;
+  box-shadow: 0px -16px 20px 20px; }
+  .haut_de_site img {
+    width: 100%;
+    position: relative;
+    top: -100px; }
+  .haut_de_site h2 {
+    position: absolute;
+    bottom: 500px;
+    color: #a38365;
+    font-size: 45px;
+    text-shadow: 2px 2px 7px black; }
+
+.presentation {
+  text-align: center; }
+  .presentation .texte {
+    display: inline-flex;
+    justify-content: center;
+    margin: 45px 0px 65px 0px; }
+    .presentation .texte p {
+      color: white;
+      width: 30%;
+      letter-spacing: 4px; }
+  .presentation a {
+    text-decoration: none;
+    background-color: #a38365;
+    color: white;
+    padding: 15px;
+    font-size: 45px;
+    border-radius: 4px;
+    transition: all 200ms ease; }
+    .presentation a:hover {
+      color: #a38365;
+      background-color: white;
+      transition: all 200ms ease; }
+
+.footer {
+  border-top: solid;
+  border-color: #a38365;
+  margin-top: 50px;
+  position: relative; }
+  .footer p {
+    color: #a38365;
+    font-size: 20px; }
+
+/*# sourceMappingURL=page_acceuil.css.map */
