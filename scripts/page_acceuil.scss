@@ -55,6 +55,18 @@ body{
   border-color: $color_texte;
   margin-top: 50px;
   position: relative;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  .boutons{
+    display: inline-flex;
+    width: 12%;
+    justify-content: space-between;
+    margin: 20px;
+    a{
+      color: $color_texte;
+    }
+  }
   p{
     color: $color_texte;
     font-size: 20px;

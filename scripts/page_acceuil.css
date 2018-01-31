@@ -45,7 +45,15 @@ body {
   border-top: solid;
   border-color: #a38365;
   margin-top: 50px;
-  position: relative; }
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between; }
+  .footer .boutons {
+    display: inline-flex;
+    width: 12%;
+    justify-content: space-between;
+    margin: 20px; }
   .footer p {
     color: #a38365;
     font-size: 20px; }
