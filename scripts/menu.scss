@@ -1,0 +1,22 @@
+$color_texte : #987b33;
+.menu{
+  display: inline-flex;
+  width: 80%;
+  .logo{
+    display: inline-flex;
+    width: 100%;
+    img{
+      width: 120px;
+      height: 120px;
+    }
+    .description{
+      color:$color_texte;
+    }
+  }
+  .boutons{
+    display: inline-flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+}

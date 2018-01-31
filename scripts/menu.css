@@ -1,0 +1,18 @@
+.menu {
+  display: inline-flex;
+  width: 80%; }
+  .menu .logo {
+    display: inline-flex;
+    width: 100%; }
+    .menu .logo img {
+      width: 120px;
+      height: 120px; }
+    .menu .logo .description {
+      color: #987b33; }
+  .menu .boutons {
+    display: inline-flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-top: 40px; }
+
+/*# sourceMappingURL=menu.css.map */
