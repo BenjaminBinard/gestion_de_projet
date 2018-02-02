@@ -1,10 +1,14 @@
 $color_texte : #987b33;
+$color_fond : #b11317;
+$color_selection : white;
 .menu{
+  padding: 0 2.5em 0 2.5em;
   display: inline-flex;
-  width: 80%;
+  width: 100%;
+  background-color: $color_fond;
   .logo{
     display: inline-flex;
-    width: 100%;
+    width: 40%;
     img{
       width: 120px;
       height: 120px;
@@ -14,9 +18,23 @@ $color_texte : #987b33;
     }
   }
   .boutons{
-    display: inline-flex;
-    width: 40%;
-    justify-content: space-between;
-    padding-top: 40px;
+    width: 100%;
+    .sous_boutons{
+      display: inline-flex;
+      width: 30%;
+      justify-content: space-between;
+      padding-top: 40px;
+      a{
+        text-decoration: none;
+        color: $color_texte;
+        &:hover{
+          color : $color_selection;
+        }
+      }
+      .actif{
+        text-decoration: underline;
+        color : $color_selection;
+      }
+    }
   }
 }
