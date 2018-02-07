@@ -11,8 +11,8 @@ html, body {
 }
 
 h1 {
-	color: #0d698a;
-	text-align: center;
+	color: #987b33;
+	margin: 2.5em;
 }
 
 .contenu a {
@@ -27,18 +27,19 @@ h1 {
 }
 
 .contenu {
+	color: #1C1C1C;
+	transition: 0.3s ease-out;
+}
+.sous_contenu{
 	margin-left: 2.5em;
 	margin-right: 2.5em;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	color: #1C1C1C;
-	transition: 0.3s ease-out;
 }
-
 .contenu:hover {
 	transition: 0.3s ease-out;
-  filter: opacity(70%);
+  /*filter: opacity(70%);*/
 	cursor: pointer;
 	background-color: white;
 }
@@ -52,11 +53,22 @@ h1 {
 	/*padding-left: 2.5em;*/
 }
 
-.prix {
+.prix, .stock_oui, .stock_non {
 	font-size: 180%;
 	font-weight: bold;
 }
-
+.stock_oui{
+	color : green;
+}
+.stock_non{
+	color: red;
+}
+.stock_oui, .stock_non {
+	display: none;
+}
+.contenu:hover .stock_oui, .contenu:hover .stock_non {
+	display: block;
+}
 .logo-art img{
 	display: inline-block;
 	width: 15em;

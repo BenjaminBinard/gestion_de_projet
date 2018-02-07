@@ -15,7 +15,7 @@
     width: 100%; }
     .menu .boutons .sous_boutons {
       display: inline-flex;
-      width: 30%;
+      width: 60%;
       justify-content: space-between;
       padding-top: 40px; }
       .menu .boutons .sous_boutons a {
@@ -28,5 +28,15 @@
       .menu .boutons .sous_boutons .actif {
         text-decoration: underline;
         color: white; }
+      .menu .boutons .sous_boutons .reseau_sociaux {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 20%;
+        position: relative;
+        top: -10px; }
+        .menu .boutons .sous_boutons .reseau_sociaux a {
+          color: black; }
+          .menu .boutons .sous_boutons .reseau_sociaux a img {
+            width: 40px; }
 
 /*# sourceMappingURL=menu.css.map */
