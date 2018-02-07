@@ -6,18 +6,18 @@ html, body {
 	font-size: 100%;
 	overflow-x: hidden;
 	color: #000000;
-	background-image: url("images/AAEAAQAAAAAAAAgBAAAAJGM5YTk3YWNiLTRjOTItNDMwMy1hYjE4LTM2ZjIwMmZhZjFiMg.jpg");
+	background-image: url("../images/AAEAAQAAAAAAAAgBAAAAJGM5YTk3YWNiLTRjOTItNDMwMy1hYjE4LTM2ZjIwMmZhZjFiMg.jpg");
 	background-repeat: no-repeat;
 }
 
 .title {
-	color: #0d698a;
-	text-align: center;
+	color: #987b33;
+	margin: 2.5em;
 }
 
 .contenu {
-	margin-left: 6em;
-	margin-right: 6em;
+	margin-left: 2.5em;
+	margin-right: 5.2em;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
