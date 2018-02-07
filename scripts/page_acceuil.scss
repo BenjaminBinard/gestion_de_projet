@@ -33,20 +33,24 @@ body{
       color: white;
       width: 30%;
       letter-spacing: 4px;
+      font-weight: bold;
     }
   }
-  a{
-    text-decoration: none;
-    background-color: $color_texte;
-    color: white;
-    padding: 15px;
-    font-size: 45px;
-    border-radius: 4px;
-    transition: all 200ms ease;
-    &:hover{
-      color: $color_texte;
-      background-color: white;
+  .lien{
+    display: block;
+    a{
+      text-decoration: none;
+      background-color: $color_texte;
+      color: white;
+      padding: 15px;
+      font-size: 45px;
+      border-radius: 4px;
       transition: all 200ms ease;
+      &:hover{
+        color: $color_texte;
+        background-color: white;
+        transition: all 200ms ease;
+      }
     }
   }
 }

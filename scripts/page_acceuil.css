@@ -28,19 +28,22 @@ body {
     .presentation .texte p {
       color: white;
       width: 30%;
-      letter-spacing: 4px; }
-  .presentation a {
-    text-decoration: none;
-    background-color: #a38365;
-    color: white;
-    padding: 15px;
-    font-size: 45px;
-    border-radius: 4px;
-    transition: all 200ms ease; }
-    .presentation a:hover {
-      color: #a38365;
-      background-color: white;
+      letter-spacing: 4px;
+      font-weight: bold; }
+  .presentation .lien {
+    display: block; }
+    .presentation .lien a {
+      text-decoration: none;
+      background-color: #a38365;
+      color: white;
+      padding: 15px;
+      font-size: 45px;
+      border-radius: 4px;
       transition: all 200ms ease; }
+      .presentation .lien a:hover {
+        color: #a38365;
+        background-color: white;
+        transition: all 200ms ease; }
 
 .separation {
   height: 20px;
